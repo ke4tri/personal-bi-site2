@@ -1,0 +1,34 @@
+{
+  "movies" : [
+  {
+  "project": "Language Christmas Card Translator",
+  "title": "Translator", 
+  "screenshot": "/images/download.png", 
+  "description": "Type in a phrase of predetermind english words and click what language you would like to hear it translated into.",
+  "technologiesUsed": "HTML, CSS, JS, Github, Version Control with Github",
+  "available": true,
+  "url": "https:github.com/ke4tri/translator", 
+  "githubUrl": "https://github.com/ke4tri/translator"
+},
+{
+  "project": "Random Harry Potter House Sort Tool",
+  "title": "Sort!", 
+  "screenshot": "/images/images.png", 
+  "description": "For sorting new students into an appropriate house for school.", 
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true,
+  "url": "https://github.com/ke4tri/sorting_hat",
+  "githubUrl": "https://github.com/ke4tri/sorting_hat"
+},
+{
+  "project": "Project 3",
+  "title": "Tamohawk Take Down", 
+  "screenshot": "/images/logo.png", 
+  "description": "This is the best project", 
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": false, 
+  "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+  "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+}
+  ]
+}
