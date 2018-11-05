@@ -6,17 +6,16 @@ import getProj from './projectData';
 const createProjCards = (projects) => {
   let newString = '';
   projects.forEach((project) => {
-    newString += `
-      <div class="card u-clearfix">
+    if (project.available === true) {
+      newString += `
+      <div class="card u-clearfix card mt-4 d-flex flex-column-reverse" style="width: 18rem;">
         <div class="card-body">
-          <span class="card-number card-circle subtle">$${project[0]}</span>
-          <span class="card-author subtle"></span>
-          <h2 class="card-title">${project.name}</h2>
-          <span class="card-description subtle">${project.specialSkill}</span>
-          <div class="card-read"><span class="subtle">Color</span>${project.color}</div>
+          <h2 class="card-title">${project.title}</h2>
+          <div class="card-read"><span class="subtle">Discription : </span>${project.description}</div>
         </div>
-        <img src="${project.gif}" alt="" class="card-media" />
+        <img src="${project.screenshot}" alt="" class="card-media img-thumbnail" />
       </div>`;
+    }
   });
 
   $('#projects').html(newString);
@@ -25,6 +24,7 @@ const createProjCards = (projects) => {
 const getProjFirst = () => {
   getProj()
     .then((data) => {
+      console.log(`This is the data ${data}`);
       createProjCards(data.data);
     })
     .catch((error) => {

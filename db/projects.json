@@ -3,17 +3,17 @@
   {
   "project": "Language Christmas Card Translator",
   "title": "Translator", 
-  "screenshot": "/images/download.png", 
+  "screenshot": "https://github.com/ke4tri/translator/blob/master/images/Translator2.JPG?raw=true", 
   "description": "Type in a phrase of predetermind english words and click what language you would like to hear it translated into.",
   "technologiesUsed": "HTML, CSS, JS, Github, Version Control with Github",
-  "available": true,
+  "available": false,
   "url": "https:github.com/ke4tri/translator", 
   "githubUrl": "https://github.com/ke4tri/translator"
 },
 {
   "project": "Random Harry Potter House Sort Tool",
   "title": "Sort!", 
-  "screenshot": "/images/images.png", 
+  "screenshot": "https://github.com/ke4tri/sorting_hat/blob/master/img/Snip2.JPG?raw=true", 
   "description": "For sorting new students into an appropriate house for school.", 
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
   "available": true,
@@ -21,14 +21,14 @@
   "githubUrl": "https://github.com/ke4tri/sorting_hat"
 },
 {
-  "project": "Project 3",
-  "title": "Tamohawk Take Down", 
-  "screenshot": "/images/logo.png", 
-  "description": "This is the best project", 
+  "project": "Thrones",
+  "title": "Thrones", 
+  "screenshot": "https://github.com/ke4tri/Thrones/blob/master/ThroneScreen.JPG?raw=true", 
+  "description": "Game of thrones house filter", 
   "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-  "available": false, 
-  "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-  "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+  "available": true, 
+  "url": "https://github.com/ke4tri/Thrones",
+  "githubUrl": "https://github.com/ke4tri/Thrones"
 }
   ]
 }
