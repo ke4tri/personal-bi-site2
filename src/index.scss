@@ -1,7 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-image: url('./img/me2.jpg');
+  // background-image: url('./img/me2.jpg');
+  font-family: 'Amatic SC', cursive;
+  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&h=350');
   height: 100%; 
 	background-attachment: fixed;
 	background-position: center;
@@ -25,5 +27,21 @@ body {
   background-size:     cover;
   padding: 22px;
  }
+.card2 {
+  background-color:rgba(82, 76, 71, 0.548);
+}
+
+ .card-img-top {
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+  margin: 0 auto;
+ }
+ 
+ .project-card{
+  display: inline-block;
+ }
+
 
 $body-bg: none; 
