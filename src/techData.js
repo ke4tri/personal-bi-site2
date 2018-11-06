@@ -14,6 +14,6 @@ import axios from 'axios';
 //   });
 // }
 
-const getTec = () => axios.get('http://localhost:3002/tech');
+const getTec = () => axios.get('http://localhost:3002/technologies');
 
 export default getTec;

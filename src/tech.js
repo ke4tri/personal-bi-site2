@@ -5,11 +5,12 @@ import getTec from './techData';
 
 const createTechCards = (techs) => {
   let newString = '';
-  for (let i = 0; i < techs.length; i += 0) {
+  techs.forEach((tech) => {
+    console.log('this is it');
     newString += `
-      <div class="techImg">${techs[i]}</div>
+      <div class="techImg"><img src="${tech.tech}" alt="tech" height="100" width="100"></div>
         `;
-  }
+  });
   $('#technologies').html(newString);
 };
 

@@ -4,22 +4,21 @@ import './index.scss';
 import getProj from './projectData';
 
 const createProjCards = (projects) => {
-  let newString = '';
+  let domString = '';
   projects.forEach((project) => {
-    if (project.available === true) {
-      newString += `
-      <div class="card u-clearfix card mt-4 d-flex flex-column-reverse" style="width: 18rem;">
+    domString += `<div id='${project.id}' class='card2 card col-3 p-3 m-5'>
+        <img class="card-img-top" src=${project.screenshot}
         <div class="card-body">
-          <h2 class="card-title">${project.title}</h2>
-          <div class="card-read"><span class="subtle">Discription : </span>${project.description}</div>
+            <h5 class="card-title">${project.title}</h5>
+            <h6 class="card-text">${project.description}</h6>
+            <p class="technologies-used">${project.technologiesUsed}</p>
+            <a href="${project.githubUrl}" class="btn btn-secondary d-flex justify-content-center">GitHub</a>
         </div>
-        <img src="${project.screenshot}" alt="" class="card-media img-thumbnail" />
-      </div>`;
-    }
+    </div>`;
   });
-
-  $('#projects').html(newString);
+  $('#projects').html(domString);
 };
+
 
 const getProjFirst = () => {
   getProj()
