@@ -12,6 +12,10 @@ body {
   // background-color: rgb(82, 76, 71);
 }
 
+.body-text {
+  color: white;
+}
+
 #important-text {
   p {
     color: rgba(180, 180, 180, 0.781);
@@ -28,12 +32,16 @@ body {
   padding: 22px;
  }
 .card2 {
-  background-color:rgba(82, 76, 71, 0.548);
+  background-color:rgba(33, 124, 117, 0.548);
+}
+
+.card-body {
+  text-decoration-color: aliceblue;
 }
 
  .card-img-top {
-  height: 280px;
-  width: 100%;
+  // height: 280px;
+  // width: 100%;
   object-fit: cover;
   object-position: 0 0;
   margin: 0 auto;
