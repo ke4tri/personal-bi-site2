@@ -38,13 +38,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nss-evening-cohort-8/cats-vs-dogs.git"
+    "url": "git+https://github.com/ke4tri/personal-bi-site2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nss-evening-cohort-8/cats-vs-dogs/issues"
+    "url": "https://github.com/ke4tri/personal-bi-site2"
   },
-  "homepage": "https://github.com/nss-evening-cohort-8/cats-vs-dogs#readme"
+  "homepage": "https://github.com/ke4tri/personal-bi-site2"
 }
