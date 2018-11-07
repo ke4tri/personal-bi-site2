@@ -17,6 +17,10 @@ body {
   filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
+#projectH3 {
+  text-align: center;
+}
+
 #bioDiv {
   display: flex;
   flex-direction: row;
@@ -29,9 +33,11 @@ body {
 }
 
 #bio {
+  font-size: 25px;
   color: aliceblue;
   margin-left: -400px;
-  margin-bottom: -400px;
+  margin-top: 200px;
+  z-index: 3;
 }
 
 .body-text {
