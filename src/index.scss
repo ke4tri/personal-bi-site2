@@ -12,6 +12,28 @@ body {
   // background-color: rgb(82, 76, 71);
 }
 
+.newImage {
+  opacity: 0.5;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+#bioDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#bioImage {
+  margin-top: 25px;
+  align-content: center;
+}
+
+#bio {
+  color: aliceblue;
+  margin-left: -400px;
+  margin-bottom: -400px;
+}
+
 .body-text {
   color: white;
 }
