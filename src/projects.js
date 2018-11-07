@@ -12,7 +12,7 @@ const createProjCards = (projects) => {
             <h5 class="card-title mt-3">${project.title}</h5>
             <h6 class="card-text">${project.description}</h6>
             <p class="technologies-used">${project.technologiesUsed}</p>
-            <a href="${project.githubUrl}" class="btn btn-secondary d-flex justify-content-center">GitHub</a>
+            <a href="${project.githubUrl}" id="linkFont" class="btn d-flex justify-content-center">GitHub</a>
         </div>
     </div>`;
   });
