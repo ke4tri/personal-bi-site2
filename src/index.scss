@@ -21,6 +21,11 @@ body {
   text-align: center;
 }
 
+.projText {
+  color: rgba(39, 76, 124, 0.788);
+  font-size: 45px;
+}
+
 #bioDiv {
   display: flex;
   flex-direction: row;
@@ -41,13 +46,18 @@ body {
 }
 
 .body-text {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #important-text {
   p {
     color: rgba(180, 180, 180, 0.781);
   }
+}
+
+#linkFont {
+  font-size: 40px;
+  color: whitesmoke;
 }
 
 .techImg {
@@ -60,8 +70,11 @@ body {
   padding: 22px;
  }
 .card2 {
-  background-color:rgba(33, 124, 117, 0.548);
+  background-color:rgba(33, 124, 116, 0);
+  border: none;
 }
+
+
 
 .card-body {
   text-decoration-color: aliceblue;
