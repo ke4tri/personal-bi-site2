@@ -26,11 +26,6 @@ body {
   font-size: 45px;
 }
 
-#bioDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 #bioImage {
   margin-top: 25px;
@@ -61,19 +56,18 @@ body {
 }
 
 .techImg {
-  position: relative;
-  width:  150px;
-  height: 150px;
-  background-position: 50% 50%;
-  background-repeat:   no-repeat;
-  background-size:     cover;
-  padding: 22px;
- }
+position: relative;
+width:  150px;
+height: 150px;
+background-position: 50% 50%;
+background-repeat:   no-repeat;
+background-size:     cover;
+padding: 22px;
+}
 .card2 {
   background-color:rgba(33, 124, 116, 0);
   border: none;
 }
-
 
 
 .card-body {
@@ -88,9 +82,71 @@ body {
   margin: 0 auto;
  }
  
- .project-card{
-  display: inline-block;
- }
+.project-card{
+display: inline-block;
+}
+
+#bioDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: px;
+  margin-bottom: 25px;
+}
+
+.hero-logo-circle:nth-child(1) {
+  animation-duration: 50s;
+}
+
+.hero-logo-circle:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.hero-logo-circle:nth-child(3) {
+  animation-duration: 25s;
+}
+
+.hero-logo-circle:nth-child(4) {
+  animation-duration: 10s;
+}
+
+.hero-logo-circle:nth-child(5) {
+  animation-duration: 59s;
+}
+
+
+/* .hero-logo-circles {
+  width: 366px;
+  height: 366px;
+  margin: auto;
+  position: relative;
+} */
+
+.hero-logo-circle {
+position: absolute;
+top: 190px;
+left:45%;
+width: 600px;
+height: 600px;
+margin:-60px 0 0 -60px;
+-webkit-animation:spin 1s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 3s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* .hero-logo {
+  flex: 0 0 500px;
+  height: 366px;
+  background-position: center;
+} */
+
+/* div {
+  display: block;
+} */
 
 
 $body-bg: none; 
