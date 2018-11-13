@@ -69,14 +69,13 @@ padding: 22px;
   border: none;
 }
 
-
 .card-body {
   text-decoration-color: aliceblue;
 }
 
  .card-img-top {
-  // height: 280px;
-  // width: 100%;
+  border: 5px solid black;
+  border-radius: 5%;
   object-fit: cover;
   object-position: 0 0;
   margin: 0 auto;
@@ -114,14 +113,6 @@ display: inline-block;
   animation-duration: 59s;
 }
 
-
-/* .hero-logo-circles {
-  width: 366px;
-  height: 366px;
-  margin: auto;
-  position: relative;
-} */
-
 .hero-logo-circle {
 position: absolute;
 top: 190px;
@@ -138,15 +129,11 @@ animation:spin 3s linear infinite;
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-/* .hero-logo {
-  flex: 0 0 500px;
-  height: 366px;
-  background-position: center;
-} */
-
-/* div {
-  display: block;
-} */
-
+#contact {
+  
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 50px;
+}
 
 $body-bg: none; 
