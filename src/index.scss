@@ -19,6 +19,18 @@ body {
   text-align: center;
 }
 
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#project1,
+#project2,
+#project3 {
+  min-width: 350px;
+}
+
 .projText {
   color: rgba(39, 76, 124, 0.788);
   font-size: 45px;
@@ -48,6 +60,14 @@ body {
   }
 }
 
+#technologies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
 #linkFont {
   font-size: 40px;
   color: whitesmoke;
@@ -72,13 +92,13 @@ padding: 22px;
   text-decoration-color: aliceblue;
 }
 
- .card-img-top {
-  border: 5px solid black;
-  border-radius: 5%;
-  object-fit: cover;
-  object-position: 0 0;
-  margin: 0 auto;
- }
+.card-img-top {
+border: 5px solid black;
+border-radius: 5%;
+object-fit: cover;
+object-position: 0 0;
+margin: 0 auto;
+}
  
 .project-card{
 display: inline-block;
@@ -155,10 +175,13 @@ animation:spin 3s linear infinite;
   }
 }
 
-#projects{
-  flex-wrap: wrap;
-}
+// #projects{
+//   display: initial;
+// }
 
+.project-card{
+  
+  }
 
 }
 

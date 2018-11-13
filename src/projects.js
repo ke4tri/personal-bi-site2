@@ -6,7 +6,7 @@ import getProj from './projectData';
 const createProjCards = (projects) => {
   let domString = '';
   projects.forEach((project) => {
-    domString += `<div id='${project.id}' class='card2 card col-3 p-3 m-5'>
+    domString += `<div id='${project.id}' class='card2 card col-3 p-1 m-5'>
         <img class="card-img-top" src=${project.screenshot}
         <div class="card-body">
             <h5 class="card-title mt-3">${project.title}</h5>
