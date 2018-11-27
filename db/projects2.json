@@ -1,0 +1,35 @@
+{
+  
+   "project1": {
+  "project": "Language Christmas Card Translator",
+  "title": "Translator",
+  "screenshot": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLtABHjpABou63qdRRH2l2asDJGqlVewGGr91dIbMH8oC5AMoS", 
+  "description": "Type in a phrase of predetermind english words and click what language you would like to hear it translated into.",
+  "technologiesUsed": "HTML, CSS, JS, Github, Version Control with Github",
+  "available": true,
+  "url": "https:github.com/ke4tri/translator", 
+  "githubUrl": "https://github.com/ke4tri/translator"
+},
+
+  "project2": {
+  "project": "Random Harry Potter House Sort Tool",
+  "title": "Sort!", 
+  "screenshot": "https://github.com/ke4tri/sorting_hat/blob/master/img/Snip2.JPG?raw=true", 
+  "description": "For sorting new students into an appropriate house for school at the famous Hogwarts school for the gifted.", 
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true,
+  "url": "https://github.com/ke4tri/sorting_hat",
+  "githubUrl": "https://github.com/ke4tri/sorting_hat"
+},
+
+"project3": {
+  "project": "Thrones",
+  "title": "Thrones", 
+  "screenshot": "https://mobimg.b-cdn.net/androidgame_img/game_of_thrones/real/1_game_of_thrones.jpg", 
+  "description": "Game of thrones house filter", 
+  "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+  "available": true, 
+  "url": "https://github.com/ke4tri/Thrones",
+  "githubUrl": "https://github.com/ke4tri/Thrones"
+}
+}

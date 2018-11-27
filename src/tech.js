@@ -18,7 +18,7 @@ const getTechFirst = () => {
   getTec()
     .then((data) => {
       console.log(`This is the data ${data}`);
-      createTechCards(data.data);
+      createTechCards(data);
     })
     .catch((error) => {
       console.error({ error });

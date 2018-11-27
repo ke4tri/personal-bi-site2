@@ -1,19 +1,29 @@
 import axios from 'axios';
+import apiKeys from '../db/apiKeys.json';
 
-// Long way if you want to manipulate data first
-// const getDogs = () => {
-//   return new Promise((resolve, reject) => {
-//     axios.get('https://random-dogs-api.herokuapp.com/dogs/23')
-//     .then((data) => {
-//        const cleanData = data.data.dogs;
-//       resolve(cleanData);
-//     })
-//     .catch((err) => {
-//       reject(err);
-//     })
-//   });
-// }
+const baseUrl = apiKeys.firebaseKeys.databaseURL;
 
-const getTec = () => axios.get('http://localhost:3002/technologies');
+const getTec = () => new Promise((resolve, reject) => {
+  axios
+    .get(`${baseUrl}/tech.json`)
+    .then((result) => {
+      const allProjectsObject = result.data;
+      const allProjectsArray = [];
+      if (allProjectsObject != null) {
+        Object.keys(allProjectsObject).forEach((project) => {
+          const newProject = allProjectsObject[project];
+          newProject.id = project;
+          allProjectsArray.push(newProject);
+        });
+      }
+      resolve(allProjectsArray);
+      console.log('here', allProjectsArray);
+    })
+    .catch((err) => {
+      reject(err);
+    });
+});
+
+// const getTec = () => axios.get('http://localhost:3002/technologies');
 
 export default getTec;

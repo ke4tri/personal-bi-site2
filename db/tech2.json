@@ -1,0 +1,42 @@
+{
+  "technology1" : {
+  "id": "html",
+  "tech": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png"
+},
+  "technology2" : {
+  "id": "css",
+  "tech": "https://cdn.iconscout.com/icon/free/png-256/css-118-569410.png" 
+},
+  "technology3" : {
+  "id": "js",
+  "tech": "http://pluspng.com/img-png/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png" 
+},
+  "technology4" : {
+  "id": "sass",
+  "tech": "https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png" 
+},
+  "technology5" : {
+  "id": "git",
+  "tech": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" 
+},
+  "technology6" : {
+  "id": "ajax",
+  "tech": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/AJAX_logo_by_gengns.svg/1200px-AJAX_logo_by_gengns.svg.png" 
+},
+  "technology7" : {
+  "id": "tech7",
+  "tech": "https://www.shareicon.net/download/2017/03/07/880593_media.ico" 
+},
+  "technology8" : {
+  "id": "photoshop",
+  "tech": "http://www.transparentpng.com/download/photoshop-logo-png/hd-clipart-photoshop-logo-3.png" 
+},
+  "technology9" : {
+  "id": "arduino",
+  "tech": "https://png.icons8.com/metro/1600/arduino.png" 
+},
+  "technology10" : {
+  "id": "github",
+  "tech": "https://camo.githubusercontent.com/6d786a3b2f13b652983c0cd83864a6ed80f9bc19/687474703a2f2f696d6775722e636f6d2f673337773448512e706e67" 
+}
+}
