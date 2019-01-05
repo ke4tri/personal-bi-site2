@@ -33,21 +33,25 @@ body {
 
 .projText {
   color: rgba(39, 76, 124, 0.788);
-  font-size: 45px;
+  font-size: 50px;
 }
 
 #bioImage {
-  margin-top: 25px;
+  margin-top: 30px;
   align-content: center;
 }
 
 #bio {
-  font-size: 25px;
+  font-size: 30px;
   color: aliceblue;
   margin-left: -500px;
   margin-top: 200px;
   margin-right: 50px;
   z-index: 3;
+}
+
+h6{
+  font-size: 35px;
 }
 
 .body-text {
@@ -158,6 +162,12 @@ animation:spin 3s linear infinite;
 
 @media screen and (max-width: 1024px) {
 
+body {
+  font-family: 'Amatic SC', cursive;
+  background-color: aquamarine !important;
+  height: 30%;
+}
+
 #bioDiv {
   flex-direction: row;
   justify-content: center;
@@ -165,7 +175,7 @@ animation:spin 3s linear infinite;
 }
 
 #bio {
-  font-size: 25px;
+  font-size: 30px;
   color: aliceblue;
   z-index: 3;
   
@@ -175,9 +185,6 @@ animation:spin 3s linear infinite;
   }
 }
 
-// #projects{
-//   display: initial;
-// }
 
 .project-card{
   
